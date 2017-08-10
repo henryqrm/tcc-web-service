@@ -23,7 +23,19 @@ const ProductSchema = new mongoose.Schema({
         type: Number,
         default: 1
     },
-    amountUnit: String
+    amountUnit: String,
+    rated: [Number]
 });
+
+// ProductSchema.pre('save', function (next) {
+//     const self = this;
+//     if (self.rated && self.id) {
+//         ProductSchema.findById(self.id).exec()
+//             .then(function (product) {
+//                 product.rated.push(self.rated);
+//                 next();
+//             });
+//     }
+// });
 
 export default mongoose.model('Product', ProductSchema);

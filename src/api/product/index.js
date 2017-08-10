@@ -6,6 +6,7 @@ import {
     show,
     create,
     update,
+    updateRated,
     destroy,
 } from './product.controller';
 
@@ -16,6 +17,8 @@ router.get('/:id', show);
 router.post('/', create);
 router.put('/:id', update);
 router.patch('/:id', update);
+router.put('/:id/rated', updateRated);
+router.patch('/:id/rated', updateRated);
 router.delete('/:id', destroy);
 
 export default router;

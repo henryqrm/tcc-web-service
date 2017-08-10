@@ -13,6 +13,7 @@ export {
     show,
     create,
     update,
+    updateRated,
     destroy
 };
 
@@ -37,6 +38,38 @@ function create(req, res) {
     return Product.create(req.body)
         .then(respondWithResult(res, 201))
         .catch(handleError(res));
+}
+
+function updateRated(req, res) {
+    if (req.body._id) {
+        delete req.body._id;
+    }
+    return Product.findById(req.params.id).exec()
+        .then(handleEntityNotFound(res))
+        .then(saveUpdatesRated(req.body))
+        .then(respondWithResult(res))
+        .catch(handleError(res));
+
+    function saveUpdatesRated(updates) {
+        return entity => {
+            entity.rated.push(updates.rated);
+            return entity.save()
+                .then(entityUpdated => {
+                    return entityUpdated;
+                });
+        }
+    }
+    Product
+        .update({
+                _id: person._id
+            }, {
+                $push: {
+                    friends: friend
+                }
+            },
+            done
+        );
+    return update(req, res);
 }
 
 // Updates an existing Product in the DB
