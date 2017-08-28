@@ -1,4 +1,3 @@
-import User from './../api/user/user.model';
 import Local from './../api/local/model';
 
 Local
@@ -15,17 +14,7 @@ Local
                         total: 10,
                         current: 5,
                     },
-                    status: 'Fazendo pedido',
-                    isOccupied: false,
-                },
-                {
-                    id: 1,
-                    name: 'Mesa 1',
-                    occupations: {
-                        total: 10,
-                        current: 5,
-                    },
-                    status: 'Fazendo pedido',
+                    status: 'Livre',
                     isOccupied: true,
                 },
                 {
@@ -35,7 +24,7 @@ Local
                         total: 10,
                         current: 5,
                     },
-                    status: 'Fazendo pedido',
+                    status: 'Livre',
                     isOccupied: true,
                 },
                 {
@@ -45,7 +34,7 @@ Local
                         total: 10,
                         current: 5,
                     },
-                    status: 'Fazendo pedido',
+                    status: 'Livre',
                     isOccupied: true,
                 },
             ],
@@ -59,7 +48,7 @@ Local
                         total: 10,
                         current: 5,
                     },
-                    status: 'Fazendo pedido',
+                    status: 'Livre',
                     isOccupied: false,
                 },
                 {
@@ -69,7 +58,7 @@ Local
                         total: 10,
                         current: 5,
                     },
-                    status: 'Fazendo pedido',
+                    status: 'Livre',
                     isOccupied: true,
                 },
                 {
@@ -79,7 +68,7 @@ Local
                         total: 10,
                         current: 5,
                     },
-                    status: 'Fazendo pedido',
+                    status: 'Livre',
                     isOccupied: true,
                 },
                 {
@@ -89,19 +78,9 @@ Local
                         total: 10,
                         current: 5,
                     },
-                    status: 'Fazendo pedido',
+                    status: 'Livre',
                     isOccupied: true,
                 }
             ]
-        });
-    });
-
-User.find({})
-    .remove()
-    .then(() => {
-        User.create({
-            name: 'Henrique Rodrigues',
-            password: 12345678,
-            email: 'henryqrm@gmail.com'
         });
     });
