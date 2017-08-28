@@ -4,14 +4,12 @@ import {
 
 import {
   index,
-  setUseTable,
-  getTable
+  updateStatusTable
 } from './controller';
 
 const router = new Router();
 
 router.get('/', index);
-router.get('/table', getTable);
-router.post('/setUseTable', setUseTable);
+router.put('/table/:id', updateStatusTable)
 
 export default router;

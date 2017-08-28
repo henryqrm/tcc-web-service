@@ -1,0 +1,156 @@
+{"level":"info","message":"NODE_ENV: development","timestamp":"8:42:57 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"8:42:57 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"8:42:57 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"8:42:57 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"9:53:04 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"9:53:04 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"9:53:04 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"9:53:04 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"9:54:02 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"9:54:02 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"9:54:02 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"9:54:02 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"9:56:47 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"9:56:47 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"9:56:48 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"9:56:48 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"9:57:58 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"9:57:58 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"9:57:58 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"9:57:58 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"9:58:25 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"9:58:25 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"9:58:25 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"9:58:25 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"9:59:17 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"9:59:17 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"9:59:17 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"9:59:17 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"9:59:56 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"9:59:56 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"9:59:56 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"9:59:56 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:00:44 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:00:44 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:00:44 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:00:44 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:01:28 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:01:28 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:01:28 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:01:28 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:01:52 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:01:52 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:01:52 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:01:52 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:02:44 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:02:44 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:02:44 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:02:44 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:03:42 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:03:42 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:03:42 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:03:42 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:04:02 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:04:02 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:04:02 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:04:02 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:04:27 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:04:27 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:04:27 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:04:27 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:05:09 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:05:09 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:05:09 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:05:09 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:08:03 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:08:03 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:08:03 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:08:03 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:09:08 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:09:08 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:09:08 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:09:08 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:10:12 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:10:12 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:10:12 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:10:12 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:10:58 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:10:58 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:10:58 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:10:58 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:11:14 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:11:14 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:11:14 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:11:14 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:11:48 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:11:48 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:11:48 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:11:48 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:21:17 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:21:17 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:21:17 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:21:17 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:22:18 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:22:18 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:22:18 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:22:18 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:22:47 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:22:47 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:22:47 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:22:47 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:32:39 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:32:39 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:32:39 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:32:39 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"10:50:49 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"10:50:49 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"10:50:49 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"10:50:49 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"11:57:14 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"11:57:14 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"11:57:14 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"11:57:14 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"11:58:38 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"11:58:38 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"11:58:38 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"11:58:38 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"11:59:57 AM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"11:59:57 AM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"11:59:57 AM"}
+{"level":"info","message":"Mongoose is open","timestamp":"11:59:57 AM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"12:00:06 PM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"12:00:06 PM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"12:00:06 PM"}
+{"level":"info","message":"Mongoose is open","timestamp":"12:00:06 PM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"12:00:46 PM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"12:00:47 PM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"12:00:47 PM"}
+{"level":"info","message":"Mongoose is open","timestamp":"12:00:47 PM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"12:01:10 PM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"12:01:10 PM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"12:01:10 PM"}
+{"level":"info","message":"Mongoose is open","timestamp":"12:01:10 PM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"12:01:14 PM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"12:01:14 PM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"12:01:14 PM"}
+{"level":"info","message":"Mongoose is open","timestamp":"12:01:14 PM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"12:01:21 PM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"12:01:21 PM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"12:01:21 PM"}
+{"level":"info","message":"Mongoose is open","timestamp":"12:01:21 PM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"12:01:59 PM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"12:02:00 PM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"12:02:00 PM"}
+{"level":"info","message":"Mongoose is open","timestamp":"12:02:00 PM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"12:03:02 PM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"12:03:02 PM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"12:03:02 PM"}
+{"level":"info","message":"Mongoose is open","timestamp":"12:03:02 PM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"12:12:32 PM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"12:12:32 PM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"12:12:32 PM"}
+{"level":"info","message":"Mongoose is open","timestamp":"12:12:32 PM"}
+{"level":"info","message":"NODE_ENV: development","timestamp":"12:12:35 PM"}
+{"level":"info","message":"HOST: http://localhost:9000","timestamp":"12:12:35 PM"}
+{"level":"info","message":"MongoDB: mongodb://localhost/task-dev","timestamp":"12:12:35 PM"}
+{"level":"info","message":"Mongoose is open","timestamp":"12:12:35 PM"}

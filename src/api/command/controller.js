@@ -1,9 +1,9 @@
-import Category from './category.model';
+import Command from './model';
 
 import {
     index as i,
     create as c,
-} from './../crud.tpl';
+} from '../crud.tpl.js';
 
 export {
     index,
@@ -11,9 +11,9 @@ export {
 };
 
 function index(req, res) {
-    i(Category, req, res);
+    i(Command, req, res);
 }
 
 function create(req, res) {
-    c(Category, req, res);
+    c(Command, req, res);
 }

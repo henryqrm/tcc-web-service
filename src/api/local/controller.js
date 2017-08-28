@@ -1,4 +1,7 @@
 import Local from './model';
+import {
+  STATUS_IN_ORDER
+} from './../../constants';
 
 import {
   index as i,
@@ -8,8 +11,7 @@ import {
 export {
   index,
   create,
-  setUseTable,
-  getTable
+  updateStatusTable,
 };
 
 import {
@@ -24,16 +26,54 @@ function create(req, res) {
   c(Local, req, res);
 }
 
-function getTable(req, res) {
+function updateStatusTable(req, res) {
   return Local
-    .findOne({
-      _id: req.params._id
+    .update({
+      'tables._id': req.params.id
+    }, {
+      $set: {
+        'tables.0': req.body
+      }
     })
-    .populate('tables')
     .exec()
-    .then(table => {
-      res.json(table);
-    });
+    .then(local => res.json(local))
+    .reject(err => res.status(404).json(err));
+}
+
+// function getTable(req, res) {
+//   return Local
+//     .update({
+//       'tables._id': req.params.id
+//     }, {
+//       $addToSet: ,
+//       $pull: ,
+//       'tables._id.$': true
+//     })
+//     .exec()
+//     .then(local => {
+//       if (local[0].tables[0]) {
+//         local[0].tables[0].status = STATUS_IN_ORDER;
+//         console.log()
+//         local.save()
+//           .then(() => {
+//             res.json(local[0].tables[0]);
+//           })
+//           .reject(err => res.status(404).json(err));
+//       }
+//       res.status(404).json({
+//         error: true,
+//         message: 'Resource not found'
+//       });
+//     })
+//     .reject(err => res.status(404).json(err));
+// }
+
+function getTables(req, res) {
+  return Local
+    .findById(req.params.id)
+    .exec()
+    .then(local => res.json(local.tables))
+    .reject(err => res.json(err));
 }
 
 function setUseTable(req, res) {
