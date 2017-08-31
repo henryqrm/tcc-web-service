@@ -1,4 +1,10 @@
 import Local from './../api/local/model';
+import Command from './../api/command/model';
+
+Command
+    .find({})
+    .remove()
+    .exec();
 
 Local
     .find({})
@@ -15,7 +21,7 @@ Local
                         current: 5,
                     },
                     status: 'Livre',
-                    isOccupied: true,
+                    isOccupied: false,
                 },
                 {
                     id: 1,
@@ -25,7 +31,7 @@ Local
                         current: 5,
                     },
                     status: 'Livre',
-                    isOccupied: true,
+                    isOccupied: false,
                 },
                 {
                     id: 1,
@@ -35,7 +41,7 @@ Local
                         current: 5,
                     },
                     status: 'Livre',
-                    isOccupied: true,
+                    isOccupied: false,
                 },
             ],
         }, {
@@ -59,7 +65,7 @@ Local
                         current: 5,
                     },
                     status: 'Livre',
-                    isOccupied: true,
+                    isOccupied: false,
                 },
                 {
                     id: 1,
@@ -69,7 +75,7 @@ Local
                         current: 5,
                     },
                     status: 'Livre',
-                    isOccupied: true,
+                    isOccupied: false,
                 },
                 {
                     id: 1,
@@ -79,7 +85,7 @@ Local
                         current: 5,
                     },
                     status: 'Livre',
-                    isOccupied: true,
+                    isOccupied: false,
                 }
             ]
         });
