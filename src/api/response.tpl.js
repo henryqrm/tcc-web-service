@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import { merge } from 'lodash';
 
 export {
     respondWithResult,
@@ -36,7 +36,7 @@ function handleEntityNotFound(res) {
 
 function saveUpdates(updates) {
     return entity => {
-        const updated = _.merge(entity, updates);
+        const updated = merge(entity, updates);
         return updated.save()
             .then(entityUpdated => {
                 return entityUpdated;

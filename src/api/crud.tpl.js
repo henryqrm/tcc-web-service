@@ -1,6 +1,8 @@
 import {
     respondWithResult,
-    handleError
+    handleError,
+    handleEntityNotFound,
+    saveUpdates,
 } from './response.tpl';
 
 export function index(Entity, req, res, fnAfter, fnBefore) {
@@ -14,6 +16,25 @@ export function index(Entity, req, res, fnAfter, fnBefore) {
     }
     return Entity.find().exec()
         .then(fnAfter)
+        .then(respondWithResult(res))
+        .catch(handleError(res));
+}
+
+export function update(Entity, req, res, fnAfter, fnBefore) {
+    if (!fnAfter) {
+        fnAfter = (entity) => {
+            return entity;
+        }
+    }
+    if (fnBefore) {
+        res.body = fnBefore(req.body, req.params);
+    }
+    if (req.body._id) {
+        delete req.body._id;
+    }
+    return Product.findById(req.params.id).exec()
+        .then(handleEntityNotFound(res))
+        .then(saveUpdates(req.body))
         .then(respondWithResult(res))
         .catch(handleError(res));
 }
