@@ -5,9 +5,9 @@
   "main": "src/index.js",
   "scripts": {
     "start": "export NODE_ENV=development && nodemon src/index.js --exec babel-node --presets es2015,stage-0,stage-1",
-    "build": "export NODE_ENV=production && browserify --node src/index.js -o server/index.js -t [ babelify --presets [ es2016 stage-0 stage-1] ] -d -p [minifyify --no-map] && node server/index.js",
+    "build": "export NODE_ENV=production && browserify --node src/index.js -o server/index.js -t [ babelify --presets [ es2015 stage-0 stage-1] ] -d -p [minifyify --no-map]",
     "test": "export NODE_ENV=test && mocha --compilers js:babel-register",
-    "babel": "export NODE_ENV=production && babel src -d server && node server/index.js"
+    "babel": "export NODE_ENV=development && babel src -d server --presets=es2015"
   },
   "author": "HenryQRM",
   "license": "ISC",
@@ -48,6 +48,6 @@
     "nodemon": "^1.11.0"
   },
   "engines": {
-    "node": "6.*"
+    "node": "8.*"
   }
 }

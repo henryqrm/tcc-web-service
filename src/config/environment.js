@@ -8,7 +8,7 @@ export default {
 
     // Server port
     port: (() => {
-        let port = process.env.PORT || 80;
+        let port = process.env.PORT || 9000;
         if (process.env.NODE_ENV === 'test') {
             port = 3000;
         } else if (process.env.NODE_ENV === 'development') {
